@@ -1,13 +1,24 @@
 # Data
-data_raw/
 *.json
-*.zip
+*.csv.bak
+data/
 
 # Python
 __pycache__/
+*.py[cod]
 .venv/
 .env
 .ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
 
 # System files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
