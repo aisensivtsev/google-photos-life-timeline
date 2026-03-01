@@ -27,7 +27,6 @@ Raw files are excluded from this repository for privacy reasons.
 ## Key Outputs
 - Viewing patterns by hour and weekday
 - Top watched channels
-<<<<<<< HEAD
 - Year-over-year activity comparisons
 - Aggregated CSV outputs
 - Search Behaviour Analysis
@@ -35,28 +34,8 @@ Raw files are excluded from this repository for privacy reasons.
 - Content Theme Analysis
 - Aggregated CSV outputs
 
-## Repository Structure
-
-youtube-behavior-analysis/
-│
-├── data/ # Local raw data (ignored by Git)
-│
-├── data_processed/ # Aggregated, privacy-safe outputs
-│ ├── watch_counts_by_year.csv
-│ ├── search_counts_by_year.csv
-│ └── top_channels_top15.csv
-│
-├── notebooks/ # Main analysis notebook
-│ └── youtube_behavior_analysis.ipynb
-│
-├── README.md # Project documentation
-├── CITATIONS.md # Sources and references
-├── AI_USE_STATEMENT.md # Description of AI assistance
-└── .gitignore # Protects private data
-
->>>>>>> fcb7f02 (Finalize documentation, AI statement, reflection, and analysis outputs)
 ## How to Run
-1. Place Takeout JSON files inside `data_raw/`
+1. Place Takeout JSON files inside `data/`
 2. Open `/notebooks/youtube_behavior_analysis.ipynb`
 3. Run all cells from top to bottom
 
